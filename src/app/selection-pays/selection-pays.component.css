@@ -1,0 +1,24 @@
+div {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 35px;
+}
+
+li {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 165px;
+}
+
+li:hover {
+    background-color: lightgray;
+}

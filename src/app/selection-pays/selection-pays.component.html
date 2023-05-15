@@ -1,0 +1,8 @@
+<div>Input avec recherche de pays en Angular 13</div>
+<label for="selectPays">Pays</label>
+<input type="text" id="selectPays" #barreRecherche (focus)="listeFocus()" (blur)="listeBlur()">
+<ul *ngIf="listePaysSelectionnes.length > 0">
+    <li *ngFor="let pays of listePaysSelectionnes" (click)="cliquerPays($event)">
+        {{ pays.libelle }}
+    </li>
+</ul>
